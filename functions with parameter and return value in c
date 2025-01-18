@@ -1,5 +1,5 @@
 #include <stdio.h>    //standard input /output library.
-int sum(int a, int b) // defining a function called as add.
+int sum(int a, int b) // defining a function called as sum.
 {
     return a + b; // this will return after adding the numbers to the point where it was called.
 }
