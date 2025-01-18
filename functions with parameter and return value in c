@@ -1,0 +1,12 @@
+#include <stdio.h>    //standard input /output library.
+int sum(int a, int b) // defining a function called as add.
+{
+    return a + b; // this will return after adding the numbers to the point where it was called.
+}
+int main() // main function
+{
+    int c, d, x;
+    x = sum(4, 5);   // calling statement.
+    printf("%d", x); // printing the value to display the sum
+    return 0;
+}
